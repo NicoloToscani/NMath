@@ -8,9 +8,9 @@ function [q,e] = TrapeziComp(f,fd2,a,b,n)
 % Output: 
 %        q      valore approssimato dell'integrale della funzione f.
 %        e      errore di quadratura.
-% Appartiene alla amiglia delle formule di quadratura di Newton-Cotes
+% Appartiene alla famiglia delle formule di quadratura di Newton-Cotes
 % chiuse composte.
-% L'idea Ë quella di dividere l'intervallo di integrazione [a,b] in n
+% L'idea √® quella di dividere l'intervallo di integrazione [a,b] in n
 % sottointervalli, chiamare la formula di quadratura su ogni
 % sottointervallo e andare a sommare i risulati ottenuti.
 % Calcola un'approssimazione dell'integrale della funzione f
@@ -29,7 +29,7 @@ q = 0;
 e = 0;
 
 % Calcolo integrale sul polinomio interpolatore.
-% Questo sar‡ un approssimazione dell'integrale della funzione f data.
+% Questo sar√† un approssimazione dell'integrale della funzione f data.
 % Ad ogni iterazione chiamo il calcolo dell'approssimazione dell'integrale
 % su ogni sottointervallo.
 for i=1:n
