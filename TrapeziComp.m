@@ -1,7 +1,7 @@
 function [q,e] = TrapeziComp(f,fd2,a,b,n)
 % Input: 
 %        f      funzione da appossimare.
-%        fd2      derivata seconda funzione da appossimare.
+%        fd2    derivata seconda funzione da appossimare.
 %        a      estremo inferiore intervallo.
 %        b      estremo superiore intervallo.
 %        n      numero di suddivisoni intervallo [a,b].
